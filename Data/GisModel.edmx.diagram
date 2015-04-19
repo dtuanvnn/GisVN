@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="93e2258c8d794ceeb793a90b662a8915" Name="Diagram1" ZoomLevel="51">
+        <EntityTypeShape EntityType="LISModel.BangToaDo" Width="1.5" PointX="24.5" PointY="86.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.BenBaoLanh" Width="1.5" PointX="29.75" PointY="146.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.BienDong" Width="1.5" PointX="11.75" PointY="94.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.BienDongBanDo" Width="1.5" PointX="13.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CauGiaoThong" Width="1.5" PointX="7.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CauHinh" Width="1.5" PointX="5.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CauHinhBienDong" Width="1.5" PointX="22" PointY="149.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CertificateConfig" Width="1.5" PointX="24.5" PointY="121.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CongTyDoDac" Width="1.5" PointX="7.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CongTrinhXayDung" Width="1.5" PointX="8" PointY="112.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CongTrinhXayDungPhapLy" Width="1.5" PointX="27.5" PointY="131.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CongTrinhXayDungSauBienDong" Width="1.5" PointX="17" PointY="103.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CongTrinhXayDungTruocBienDong" Width="1.5" PointX="20" PointY="111.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CongViec" Width="1.5" PointX="21.5" PointY="100.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CongViecMau" Width="1.5" PointX="19.25" PointY="106.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CPXD_BanVeHienTrang" Width="1.5" PointX="19.25" PointY="148.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CPXD_LienKetHoSoGiaoDichMauVanBanPhapLy" Width="1.5" PointX="24.25" PointY="175.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CPXD_MauVanBanPhapLy" Width="1.5" PointX="22" PointY="162.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CPXD_NoiDungGiayPhepDeXuat" Width="1.5" PointX="19.25" PointY="171.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CPXD_PhapLyGiayPhepXayDung" Width="1.5" PointX="15.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.CPXD_QuyHoachSuDungDat" Width="1.5" PointX="22" PointY="180.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ChiTietGiaoDichBaoDam" Width="1.5" PointX="29.75" PointY="150.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ChiTietSoBienDong" Width="1.5" PointX="28" PointY="103.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ChiTietSoCapGiayChungNhan" Width="1.5" PointX="30.5" PointY="131.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ChiTietSoMucKe" Width="1.5" PointX="27.5" PointY="81.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ChucNang" Width="1.5" PointX="11" PointY="42.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ChucVu" Width="1.5" PointX="5.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ChungCu" Width="1.5" PointX="13.25" PointY="129.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DaMucDichSuDung" Width="1.5" PointX="14" PointY="201.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DaMucDichSuDungPhapLy" Width="1.5" PointX="27.5" PointY="126.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DaMucDichSuDungSauBienDong" Width="1.5" PointX="22.25" PointY="155.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DaMucDichSuDungTruocBienDong" Width="1.5" PointX="22.25" PointY="144.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanToc" Width="1.5" PointX="5.75" PointY="126.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyCongTrinh" Width="1.5" PointX="10.25" PointY="124.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyGiaoDichBaoDamGiayChungNhan" Width="1.5" PointX="27.5" PointY="136.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyHangMucCongTrinh" Width="1.5" PointX="12.5" PointY="117.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyHangMucNha" Width="1.5" PointX="38" PointY="148.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyNguoiDungSoTiepNhan" Width="1.5" PointX="14.75" PointY="98.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyNha" Width="1.5" PointX="35.75" PointY="137.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyNhom" Width="1.5" PointX="10.25" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyRung" Width="1.5" PointX="16.25" PointY="130.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKySauBienDong" Width="1.5" PointX="14" PointY="113.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyTaiSanKhac" Width="1.5" PointX="16.25" PointY="123.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyThua" Width="1.5" PointX="16.25" PointY="137.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DangKyTruocBienDong" Width="1.5" PointX="14" PointY="90.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanhMucCoQuanCapGiayChungNhan" Width="1.5" PointX="11" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanhMucCoquanPhatHanhGiayChungNhan" Width="1.5" PointX="11" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanhMucCoQuanSuDungGiayChungNhan" Width="1.5" PointX="11" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanhMucGhiChuTrang1" Width="1.5" PointX="17.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanhMucGhiChuTrang2" Width="1.5" PointX="17.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanhMucToBanDo" Width="1.5" PointX="22.25" PointY="112.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DanhSachHoSoQuet" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DiaChi" Width="1.5" PointX="16.25" PointY="73" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DiaDanh" Width="1.5" PointX="14" PointY="68.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DonDangKy" Width="1.5" PointX="14" PointY="102.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DonDangKySauBienDong" Width="1.5" PointX="18.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DonDangKyTruocBienDong" Width="1.5" PointX="18.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DongSoDiaChinh" Width="1.5" PointX="15.5" PointY="147.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DotCapGiay" Width="1.5" PointX="20" PointY="117.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DotDangKy" Width="1.5" PointX="11.75" PointY="113.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DuLieuNhap" Width="1.5" PointX="18.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.DuLieuXoa" Width="1.5" PointX="19.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Duong" Width="1.5" PointX="14" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GhiChuDaMucDichSuDung" Width="1.5" PointX="16.25" PointY="211.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GhiChuGiayChungNhan" Width="1.5" PointX="24.5" PointY="151.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GraphicConfig" Width="1.5" PointX="35.75" PointY="123" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiaDat" Width="1.5" PointX="11.75" PointY="200.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiaHanGiayPhepXayDung" Width="1.5" PointX="17" PointY="108.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiaoDichBaoDam" Width="1.5" PointX="25.25" PointY="169.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiayChungNhan" Width="1.5" PointX="22.25" PointY="124.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiayChungNhanSauBienDong" Width="1.5" PointX="30.5" PointY="127" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiayChungNhanTruocBienDong" Width="1.5" PointX="30.5" PointY="137" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiayPhepDaoDuong" Width="1.5" PointX="17" PointY="114.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiayPhepXayDung" Width="1.5" PointX="17" PointY="91.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiayToMau" Width="1.5" PointX="17.75" PointY="161.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.GiayToPhapLyKemTheo" Width="1.5" PointX="24.5" PointY="164.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.HanChe" Width="1.5" PointX="33.5" PointY="126.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.HangMucCongTrinhXayDung" Width="1.5" PointX="10.25" PointY="88" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.HangMucNha" Width="1.5" PointX="26.75" PointY="157.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.HoSoDongBo" Width="1.5" PointX="13.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.HoSoGiaoDich" Width="1.5" PointX="17" PointY="167.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.HoSoGiaoDichLuu" Width="1.5" PointX="19.25" PointY="177.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.HoSoQuet" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Huyen" Width="1.5" PointX="15.5" PointY="155.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.KienTrucKhuVuc" Width="1.5" PointX="28" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LichSuNguoiDung" Width="1.5" PointX="10.25" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetCongTrinhXayDungThua" Width="1.5" PointX="24.5" PointY="98.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetDiaChi" Width="1.5" PointX="18.5" PointY="136.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetLoaiGiaoDichGiayToMau" Width="1.5" PointX="23" PointY="117.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetNhaThua" Width="1.5" PointX="24.5" PointY="131.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetQuyTrinhLoaiGiaoDich" Width="1.5" PointX="29" PointY="155.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetQuyTrinhLoaiHoSoGiaoDich" Width="1.5" PointX="25" PointY="179.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetRungThua" Width="1.5" PointX="35.5" PointY="147.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetTaiSanKhacThua" Width="1.5" PointX="35.5" PointY="116.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetThuaDatThongTinChuongTrinhDat" Width="1.5" PointX="35.75" PointY="96.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetTrangThai" Width="1.5" PointX="21.5" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LienKetTrangThaiMau" Width="1.5" PointX="10.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.lienKetTrangThaiNghiepVu" Width="1.5" PointX="13.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Line" Width="1.5" PointX="40.25" PointY="132.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiBienDong" Width="1.5" PointX="9.5" PointY="97" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCapCongTrinh" Width="1.5" PointX="8" PointY="89.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCapNha" Width="1.5" PointX="11" PointY="154.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCongNangNhaCongTrinh" Width="1.5" PointX="5.75" PointY="114.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCoQuanCap" Width="1.5" PointX="5.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCoQuanPheDuyet" Width="1.5" PointX="8.75" PointY="120.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCoQuanThuLy" Width="1.5" PointX="19.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCoSoDinhGia" Width="1.5" PointX="9.5" PointY="200.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCheDoMienGiam" Width="1.5" PointX="25.25" PointY="117.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiCheDoNo" Width="1.5" PointX="25.25" PointY="113.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiChungTu" Width="1.5" PointX="30.5" PointY="113.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiDanhTuChung" Width="1.5" PointX="11.75" PointY="67.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiDoiTuong" Width="1.5" PointX="5.75" PointY="131.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiDoiTuongDiaDanh" Width="1.5" PointX="11.75" PointY="71.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiGiaoDich" Width="1.5" PointX="9.5" PointY="100.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiGiayChungNhan" Width="1.5" PointX="20" PointY="143.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiGiayPhepXayDung" Width="1.5" PointX="14.75" PointY="95" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiGiayTo" Width="1.5" PointX="20" PointY="166.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiHanChe" Width="1.5" PointX="31.25" PointY="108.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiHoSoGiaoDich" Width="1.5" PointX="14.75" PointY="168.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiKetCau" Width="1.5" PointX="11" PointY="158.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiKetCauChiTiet" Width="1.5" PointX="20.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiMucDichSuDung" Width="1.5" PointX="11.75" PointY="204.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiMucDichSuDungRung" Width="1.5" PointX="14" PointY="183.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiNghiaVuTaiChinh" Width="1.5" PointX="25.25" PointY="108.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiNguonGocRung" Width="1.5" PointX="14" PointY="187.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiNguonGocSuDungDat" Width="1.5" PointX="31.25" PointY="163.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiQuyetDinh" Width="1.5" PointX="7.25" PointY="106.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiQuyTrinh" Width="1.5" PointX="12.5" PointY="178" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiRung" Width="1.5" PointX="14" PointY="191.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiTaiLieuDoDac" Width="1.5" PointX="17.75" PointY="84.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiTaiSanKhac" Width="1.5" PointX="11.75" PointY="162.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiVanBanHanChe" Width="1.5" PointX="20.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiVanBanLuu" Width="1.5" PointX="20.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoaiVanBanPhapLy" Width="1.5" PointX="21.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LockTable" Width="1.5" PointX="15.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.LoGiayChungNhan" Width="1.5" PointX="11" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.MaTiepNhan" Width="1.5" PointX="14.75" PointY="172.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.MepDuongBo" Width="1.5" PointX="16.25" PointY="68.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.MucLucSoDiaChinh" Width="1.5" PointX="10.25" PointY="142.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NoiDungThayDoi" Width="1.5" PointX="26.75" PointY="210.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NoNghiaVuTaiChinh" Width="1.5" PointX="29.75" PointY="117" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NgayHenTra" Width="1.5" PointX="19.25" PointY="185.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NgayNghi" Width="1.5" PointX="21.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NghiaVuTaiChinh" Width="1.5" PointX="27.5" PointY="119.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Nguoi" Width="1.5" PointX="8" PointY="127.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NguoiDonDangKy" Width="1.5" PointX="10.25" PointY="137" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NguoiDung" Width="1.5" PointX="8" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NguoiPhapLy" Width="1.5" PointX="13.25" PointY="124.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NguoiSauBienDong" Width="1.5" PointX="13.25" PointY="138.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NguoiTruocBienDong" Width="1.5" PointX="19.25" PointY="131.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NguonGocGiaoDat" Width="1.5" PointX="33.5" PointY="152.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Nha" Width="1.5" PointX="24.5" PointY="137.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NhanVanBan" Width="1.5" PointX="30.5" PointY="121.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NhaPhapLy" Width="1.5" PointX="26.75" PointY="143.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NhaSauBienDong" Width="1.5" PointX="32.75" PointY="147.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NhaTruocBienDong" Width="1.5" PointX="26.75" PointY="148.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.NhomNguoiDung" Width="1.5" PointX="8" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ObjectGroup" Width="1.5" PointX="45.5" PointY="132.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Point" Width="1.5" PointX="43.25" PointY="133" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.PhanQuyenNguoiDungChucNang" Width="1.5" PointX="13.25" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.PhanQuyenNguoiDungTrangThai" Width="1.5" PointX="10.25" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.PhanQuyenNhomNguoiDung" Width="1.5" PointX="13.25" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.PhanQuyenPhongBanTrangThai" Width="1.5" PointX="10.25" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Phong" Width="1.5" PointX="5.75" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuanLySoPhatHanh" Width="1.5" PointX="13.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuanLySoThua" Width="1.5" PointX="20" PointY="90.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuaTrinhXuLy" Width="1.5" PointX="10.25" PointY="147.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuaTrinhXuLyDongBo" Width="1.5" PointX="16" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuocTich" Width="1.5" PointX="5.75" PointY="136.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuyChu" Width="1.5" PointX="5.75" PointY="141" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuyetDinh" Width="1.5" PointX="9.5" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuyHoachSuDungDat" Width="1.5" PointX="22" PointY="185.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.QuyTrinh" Width="1.5" PointX="14.75" PointY="177.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Rung" Width="1.5" PointX="16.25" PointY="185.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.RungPhapLy" Width="1.5" PointX="30.5" PointY="141.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.RungSauBienDong" Width="1.5" PointX="24.5" PointY="147.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.RungTruocBienDong" Width="1.5" PointX="24.5" PointY="156.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuu" Width="1.5" PointX="0.75" PointY="108" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuCongTrinhXayDung" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuCongTrinhXayDungPhapLy" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDaMucDichSuDung" Width="1.5" PointX="3" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDaMucDichSuDungPhapLy" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDangKyCongTrinh" Width="1.5" PointX="3" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDangKyHangMucCongTrinh" Width="1.5" PointX="3" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDangKyHangMucNha" Width="1.5" PointX="3" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDangKyNha" Width="1.5" PointX="3" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDangKyRung" Width="1.5" PointX="3" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDangKyTaiSanKhac" Width="1.5" PointX="3" PointY="64.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDangKyThua" Width="1.5" PointX="3" PointY="75.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDiaChi" Width="1.5" PointX="3" PointY="70.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuDonDangKy" Width="1.5" PointX="3" PointY="83.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuGiayChungNhan" Width="1.5" PointX="3" PointY="100.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuHangMucCongTrinhXayDung" Width="1.5" PointX="3" PointY="89" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuHangMucNha" Width="1.5" PointX="3" PointY="95" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuLienKetCongTrinhXayDungThua" Width="1.5" PointX="3" PointY="112.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuLienKetDiaChi" Width="1.5" PointX="3" PointY="117" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuLienKetNhaThua" Width="1.5" PointX="3" PointY="122.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuLienKetRungThua" Width="1.5" PointX="3" PointY="127.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuLienKetTaiSanKhacThua" Width="1.5" PointX="3" PointY="131.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuNoiDungThayDoi" Width="1.5" PointX="3" PointY="135.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuNguoi" Width="1.5" PointX="3" PointY="145" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuNguoiDonDangKy" Width="1.5" PointX="3" PointY="140.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuNguoiPhapLy" Width="1.5" PointX="3" PointY="155.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuNguonGocGiaoDat" Width="1.5" PointX="3" PointY="160.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuNha" Width="1.5" PointX="3" PointY="169.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuNhaPhapLy" Width="1.5" PointX="3" PointY="164.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuRung" Width="1.5" PointX="3" PointY="177" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuRungPhapLy" Width="1.5" PointX="3" PointY="182.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuTaiSanKhac" Width="1.5" PointX="3" PointY="187.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuTaiSanKhacPhapLy" Width="1.5" PointX="3" PointY="193.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuThongTinBoSung" Width="1.5" PointX="3" PointY="197.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuThuaDat" Width="1.5" PointX="3" PointY="203.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SaoLuuTrangBoSungGiayChungNhan" Width="1.5" PointX="3" PointY="210.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoBienDong" Width="1.5" PointX="25.75" PointY="103.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoCapGiayChungNhan" Width="1.5" PointX="28.25" PointY="112" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoDiaChinh" Width="1.5" PointX="8" PointY="145.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoDoThuaDat" Width="1.5" PointX="38" PointY="137.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoHieuGiayChungNhan" Width="1.5" PointX="11" PointY="131.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoHieuGiayChungNhanHienTai" Width="1.5" PointX="25.25" PointY="82.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoMucKe" Width="1.5" PointX="25.25" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoTiepNhan" Width="1.5" PointX="12.5" PointY="172.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.SoVaoSoGiayChungNhan" Width="1.5" PointX="20" PointY="155.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.sysdiagrams" Width="1.5" PointX="17.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TaiLieuDoDac" Width="1.5" PointX="20" PointY="83" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TaiSanKhac" Width="1.5" PointX="14" PointY="160.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TaiSanKhacPhapLy" Width="1.5" PointX="33.5" PointY="120.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TaiSanKhacSauBienDong" Width="1.5" PointX="36.25" PointY="111.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TaiSanKhacTruocBienDong" Width="1.5" PointX="38.25" PointY="126.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Text" Width="1.5" PointX="38" PointY="141.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TimDuongBo" Width="1.5" PointX="16.25" PointY="78.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TimDuongSat" Width="1.5" PointX="16.25" PointY="88" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Tinh" Width="1.5" PointX="13.25" PointY="155.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TinhTrangXuLy" Width="1.5" PointX="19.25" PointY="189" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ToDanPho" Width="1.5" PointX="14" PointY="79.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThanhPhanHoSo" Width="1.5" PointX="19.25" PointY="123.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThayDoiThongTinTheChap" Width="1.5" PointX="19.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThongTinBoSung" Width="1.5" PointX="10.25" PointY="194.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThongTinChuongTrinhDat" Width="1.5" PointX="33.5" PointY="100.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThongTinHoSoQuet" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThongTinTiepNhan" Width="1.5" PointX="19.25" PointY="194.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThongTinThayDoi" Width="1.5" PointX="24.5" PointY="206.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThuaBienDongBanDo" Width="1.5" PointX="16" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThuaDat" Width="1.5" PointX="22.25" PointY="81.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThuaSauBienDong" Width="1.5" PointX="25.5" PointY="93" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThuaTruocBienDong" Width="1.5" PointX="27.5" PointY="98" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThucHienNghiaVuTaiChinh" Width="1.5" PointX="32.75" PointY="115.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.ThuLyGiayPhepXayDung" Width="1.5" PointX="30.25" PointY="91.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TrangBoSungGiayChungNhan" Width="1.5" PointX="24.5" PointY="210.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TrangSoDiaChinh" Width="1.5" PointX="13.25" PointY="144.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TrangThai" Width="1.5" PointX="19.25" PointY="100" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TrangThaiMau" Width="1.5" PointX="8" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TrangThaiNghiepVu" Width="1.5" PointX="11" PointY="48.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.TrinhKy" Width="1.5" PointX="33.5" PointY="142.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.VanBanHanChe" Width="1.5" PointX="31.25" PointY="155.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.VanBanLuu" Width="1.5" PointX="36.5" PointY="131.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.VanBanPhapLy" Width="1.5" PointX="22" PointY="171.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.Xa" Width="1.5" PointX="17.75" PointY="154.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.XaTruyCap" Width="1.5" PointX="23" PointY="92.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.XuLyVanBanHanChe" Width="1.5" PointX="33.5" PointY="157.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.YKienXacNhan" Width="1.5" PointX="21.5" PointY="189.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryChiTietSoMucKe" Width="1.5" PointX="21.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDaMucDichSuDung" Width="1.5" PointX="22.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDangKyCongTrinh" Width="1.5" PointX="23.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDangKyNha" Width="1.5" PointX="23.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDangKyRung" Width="1.5" PointX="24.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDangKyThua" Width="1.5" PointX="25.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDanhSachChung" Width="1.5" PointX="15.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDiaDanh" Width="1.5" PointX="26.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryDonViHanhChinh" Width="1.5" PointX="25.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryEditThongTinQuaTrinh" Width="1.5" PointX="27.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryEditThongTinThua" Width="1.5" PointX="27.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryHoSoGiaoDich" Width="1.5" PointX="27.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryNguoi" Width="1.5" PointX="17.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryNguoiGiayChungNhan" Width="1.5" PointX="19.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryNguoiPhapLy" Width="1.5" PointX="27.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryNhaCanHo" Width="1.5" PointX="29.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryNhaGiayChungNhan" Width="1.5" PointX="29.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryThuaGiayChungNhan" Width="1.5" PointX="31.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryTrangSoDiaChinh" Width="1.5" PointX="12.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LISModel.qryTrangThaiXuLy" Width="1.5" PointX="31.75" PointY="22.875" IsExpanded="true" />
+        <AssociationConnector Association="LISModel.FK_BangToaDo_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_BenBaoLanh_DangKyGiaoDichBaoDamGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_BienDong_LoaiBienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_BienDong_LoaiGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_BienDong_QuyetDinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CauHinhBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongTrinhXayDungSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongTrinhXayDungTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChiTietSoBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDungSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDungTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyGiaoDichBaoDam_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKySauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DonDangKy_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhanSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhanTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HanChe_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhanVanBan_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhaSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhaTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_RungSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_RungTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiSanKhacSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiSanKhacTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuaSauBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuaTruocBienDong_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrinhKy_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_VanBanLuu_BienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuaBienDongBanDo_BienDongBanDo" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CauHinhBienDong_LoaiMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CauHinhBienDong_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CertificateConfig_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongTrinhXayDung_LoaiCongNangNhaCongTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongTrinhXayDungPhapLy_CongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongTrinhXayDungSauBienDong_CongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongTrinhXayDungTruocBienDong_CongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCongTrinh_CongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HangMucCongTrinhXayDung_CongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetCongTrinhXayDungThua_CongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetDiaChi_CongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongTrinhXayDungPhapLy_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongViec_CongViecMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongViec_TrangThai" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongViecMau_ChucNang" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CongViecMau_TrangThaiMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CPXD_BanVeHienTrang_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CPXD_LienKetHoSoGiaoDichMauVanBanPhapLy_CPXD_MauVanBanPhapLy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CPXD_LienKetHoSoGiaoDichMauVanBanPhapLy_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CPXD_NoiDungGiayPhepDeXuat_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CPXD_QuyHoachSuDungDat_LoaiMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_CPXD_QuyHoachSuDungDat_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChiTietGiaoDichBaoDam_DangKyGiaoDichBaoDamGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChiTietSoBienDong_SoBienDong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChiTietSoCapGiayChungNhan_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChiTietSoCapGiayChungNhan_SoCapGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChiTietSoMucKe_SoMucKe" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChiTietSoMucKe_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenNguoiDungChucNang_ChucNang" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenNhomNguoiDung_ChucNang" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiDung_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChungCu_LoaiCapNha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChungCu_LoaiKetCau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ChungCu_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetDiaChi_ChungCu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetNhaThua_ChungCu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nha_ChungCu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDung_GiaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDung_LoaiMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDung_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDungPhapLy_DaMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDungSauBienDong_DaMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDungTruocBienDong_DaMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyThua_DaMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GhiChuDaMucDichSuDung_DaMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguonGocGiaoDat_DaMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DaMucDichSuDungPhapLy_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nguoi_DanToc" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCongTrinh_DonDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCongTrinh_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCongTrinh_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyHangMucCongTrinh_DangKyCongTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyGiaoDichBaoDamGiayChungNhan_GiaoDichBaoDam" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyGiaoDichBaoDamGiayChungNhan_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyHangMucCongTrinh_HangMucCongTrinhXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyHangMucNha_DangKyNha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNha_HangMucNha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNguoiDungSoTiepNhan_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNguoiDungSoTiepNhan_SoTiepNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNha_DonDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNha_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNha_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNha_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNhom_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyNhom_NhomNguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyRung_DonDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyRung_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyRung_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyRung_Rung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyTaiSanKhac_DonDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyTaiSanKhac_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyTaiSanKhac_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyTaiSanKhac_TaiSanKhac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyThua_DonDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyThua_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyThua_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuanLySoPhatHanh_DanhMucCoQuanCapGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LoGiayChungNhan_LoaiCoQuanPhatHanhGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuanLySoPhatHanh_DanhMucCoquanPhatHanhGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuanLySoPhatHanh_DanhMucCoQuanSuDungGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DanhMucToBanDo_TaiLieuDoDac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DanhMucToBanDo_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HoSoQuet_DanhSachHoSoQuet" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DiaChi_DiaDanh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DiaChi_Duong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DiaChi_ToDanPho" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetDiaChi_DiaChi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DiaDanh_LoaiDanhTuChung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DiaDanh_LoaiDoiTuongDiaDanh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DiaDanh_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DonDangKy_DotDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiDonDangKy_DonDangKy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DongSoDiaChinh_TrangSoDiaChinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhan_DotCapGiay" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_MepDuongBo_Duong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TimDuongBo_Duong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TimDuongSat_Duong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GhiChuGiayChungNhan_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GraphicConfig_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GraphicConfig_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GraphicConfig_SoDoThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GraphicConfig_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Line_GraphicConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ObjectGroup_GraphicConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Point_GraphicConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Text_GraphicConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiaDat_LoaiCoSoDinhGia" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCapPhep_GiaHanGPXD" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyGiaoDichBaoDam_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhan_LoaiGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhan_QuyetDinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhan_SoHieuGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhan_SoVaoSoGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhanSauBienDong_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayChungNhanTruocBienDong_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayToPhapLyKemTheo_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HanChe_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NghiaVuTaiChinh_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiPhapLy_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhanVanBan_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhaPhapLy_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_RungPhapLy_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiSanKhacPhapLy_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThanhPhanHoSo_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThongTinThayDoi_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangBoSungGiayChungNhan_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrinhKy_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_VanBanLuu_GiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCapPhep_GiayPhepDaoDuong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCapPhep_GiayPhepXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayPhepXayDung_LoaiGiayPhepXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuLyGPXD_GiayPhepXayDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_GiayToMau_Huyen" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetLoaiGiaoDichGiayToMau_GiayToMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LoaiGiayTo_GiayToMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_VanBanPhapLy_GiayToMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HanChe_LoaiHanChe" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HanChe_VanBanHanChe" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HangMucCongTrinhXayDung_LoaiCapCongTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HangMucNha_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuaTrinhXuLyDongBo_HoSoDongBo" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCapPhep_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HoSoGiaoDich_Huyen" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HoSoGiaoDich_LoaiGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HoSoGiaoDich_LoaiHoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HoSoGiaoDich_MaTiepNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HoSoGiaoDich_QuyTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_HoSoGiaoDichLuu_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NgayHenTra_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhanVanBan_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TinhTrangXuLy_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThongTinTiepNhan_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangThai_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrinhKy_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_VanBanLuu_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_VanBanPhapLy_HoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThongTinHoSoQuet_HoSoQuet" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Huyen_Tinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuyTrinh_Huyen" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Xa_Huyen" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_XaTruyCap_Huyen" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuLyGPXD_KienTrucKhuVuc" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LichSuNguoiDung_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetCongTrinhXayDungThua_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetDiaChi_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetDiaChi_Rung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetDiaChi_TaiSanKhac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetDiaChi_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetLoaiGiaoDichGiayToMau_LoaiGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetNhaThua_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetNhaThua_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetQuyTrinhLoaiGiaoDich_LoaiGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetQuyTrinhLoaiGiaoDich_QuyTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetQuyTrinhLoaiHoSoGiaoDich_LoaiHoSoGiaoDich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetQuyTrinhLoaiHoSoGiaoDich_QuyTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetRungThua_Rung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetRungThua_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetTaiSanKhacThua_TaiSanKhac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetTaiSanKhacThua_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetThuaDatThongTinChuongTrinhDat_ThongTinChuongTrinhDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetThuaDatThongTinChuongTrinhDat_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetTrangThai_TrangThai" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LienKetTrangThaiMau_TrangThaiMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_lienKetTrangThaiNghiepVu_TrangThaiMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_lienKetTrangThaiNghiepVu_TrangThaiNghiepVu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Line_Text" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ObjectGroup_Line" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nha_LoaiCapNha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nha_LoaiCongNangNhaCongTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiDung_loaiCoQuanCap" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_quanLySoThua_loaiCoQuanCap" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SoHieuGiayChungNhan_LoaiCoQuanPheDuyet" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NghiaVuTaiChinh_LoaiCheDoMienGiam" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NghiaVuTaiChinh_LoaiCheDoNo" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThucHienNghiaVuTaiChinh_LoaiChungTu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nguoi_LoaiDoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SoDiaChinh_LoaiDoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SoHieuGiayChungNhan_LoaiDoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangSoDiaChinh_LoaiDoiTuong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SoHieuGiayChungNhanHienTai_LoaiGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nha_LoaiKetCau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuyHoachSuDungDat_LoaiMucDichSuDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Rung_LoaiMucDichSuDungRung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NghiaVuTaiChinh_LoaiNghiaVuTaiChinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Rung_LoaiNguonGocRung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguonGocGiaoDat_LoaiNguonGocSuDungDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuyetDinh_LoaiQuyetDinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_LoaiQuyTrinh_QuyTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Rung_LoaiRung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiLieuDoDac_LoaiTaiLieuDoDac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiSanKhac_LoaiTaiSanKhac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuanLySoPhatHanh_LoGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_MaTiepNhan_SoTiepNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_MucLucSoDiaChinh_SoDiaChinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NoiDungThayDoi_TrangBoSungGiayChungNhan" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NoNghiaVuTaiChinh_NghiaVuTaiChinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThucHienNghiaVuTaiChinh_NghiaVuTaiChinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_DangKyCapPhep_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nguoi_QuocTich" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nguoi_QuocTich2" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nguoi_QuocTich3" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nguoi_QuocTich4" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Nguoi_QuyChu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiDonDangKy_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiPhapLy_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiSauBienDong_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiTruocBienDong_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThongTinBoSung_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangSoDiaChinh_Nguoi" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguoiDung_Phong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenNguoiDungChucNang_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenNguoiDungTrangThai_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuanLySoPhatHanh_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SoHieuGiayChungNhanHienTai_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangThai_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_XaTruyCap_NguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NguonGocGiaoDat_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhaPhapLy_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhaSauBienDong_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_NhaTruocBienDong_Nha" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenNhomNguoiDung_NhomNguoiDung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ObjectGroup_Text" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_Point_Text" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenNguoiDungTrangThai_TrangThaiMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenPhongBanTrangThai_Phong" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_PhanQuyenPhongBanTrangThai_TrangThaiMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_quanLySoThua_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuaTrinhXuLy_SoDiaChinh1" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_QuyHoachSuDungDat_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangThaiMau_QuyTrinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_RungPhapLy_Rung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_RungSauBienDong_Rung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_RungTruocBienDong_Rung" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuCongTrinhXayDung_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuCongTrinhXayDungPhapLy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDaMucDichSuDung_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDaMucDichSuDungPhapLy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDangKyCongTrinh_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDangKyHangMucCongTrinh_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDangKyHangMucNha_saoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDangKyNha_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDangKyRung_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDangKyTaiSanKhac_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDangKyThua_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDiaChi_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuDonDangKy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuGiayChungNhan_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuHangMucCongTrinhXayDung_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_saoLuuHangMucNha_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuLienKetCongTrinhXayDungThua_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuLienKetDiaChi_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuLienKetNhaThua_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuLienKetRungThua_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuLienKetTaiSanKhacThua_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuNoiDungThayDoi_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuNguoi_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuNguoiDonDangKy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuNguoiPhapLy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuNguonGocGiaoDat_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuNha_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuNhaPhapLy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuRung_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuRungPhapLy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuTaiSanKhac_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuTaiSanKhacPhapLy_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuThongTinBoSung_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuThuaDat_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SaoLuuTrangBoSungGiayChungNhan_SaoLuu" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangSoDiaChinh_SoDiaChinh" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_SoVaoSoGiayChungNhan_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuaDat_TaiLieuDoDac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiSanKhacPhapLy_TaiSanKhac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiSanKhacSauBienDong_TaiSanKhac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TaiSanKhacTruocBienDong_TaiSanKhac" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_YKienXacNhan_TinhTrangXuLy" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ToDanPho_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK__ThongTinC__thuaD__7B1E8885" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThongTinChuongTrinhDat_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuaDat_Xa" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuaSauBienDong_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_ThuaTruocBienDong_ThuaDat" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_TrangThai_TrangThaiMau" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_XuLyVanBanHanChe_VanBanHanChe" ManuallyRouted="false" />
+        <AssociationConnector Association="LISModel.FK_XaTruyCap_Xa" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
