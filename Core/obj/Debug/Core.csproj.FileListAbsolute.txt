@@ -1,0 +1,4 @@
+H:\Work\GisVN\Core\bin\Debug\Core.dll
+H:\Work\GisVN\Core\bin\Debug\Core.pdb
+H:\Work\GisVN\Core\obj\Debug\Core.dll
+H:\Work\GisVN\Core\obj\Debug\Core.pdb
