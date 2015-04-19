@@ -1,0 +1,5 @@
+H:\Work\GisVN\Data\bin\Debug\Data.dll
+H:\Work\GisVN\Data\bin\Debug\Data.pdb
+H:\Work\GisVN\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+H:\Work\GisVN\Data\obj\Debug\Data.dll
+H:\Work\GisVN\Data\obj\Debug\Data.pdb

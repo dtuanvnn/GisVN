@@ -1,0 +1,13 @@
+H:\Work\GisVN\GisVN\bin\Debug\GisVN.exe.config
+H:\Work\GisVN\GisVN\bin\Debug\GisVN.exe
+H:\Work\GisVN\GisVN\bin\Debug\GisVN.pdb
+H:\Work\GisVN\GisVN\obj\Debug\GisVN.csprojResolveAssemblyReference.cache
+H:\Work\GisVN\GisVN\obj\Debug\MainWindow.baml
+H:\Work\GisVN\GisVN\obj\Debug\MainWindow.g.cs
+H:\Work\GisVN\GisVN\obj\Debug\App.g.cs
+H:\Work\GisVN\GisVN\obj\Debug\GisVN_MarkupCompile.cache
+H:\Work\GisVN\GisVN\obj\Debug\GisVN.g.resources
+H:\Work\GisVN\GisVN\obj\Debug\GisVN.Properties.Resources.resources
+H:\Work\GisVN\GisVN\obj\Debug\GisVN.csproj.GenerateResource.Cache
+H:\Work\GisVN\GisVN\obj\Debug\GisVN.exe
+H:\Work\GisVN\GisVN\obj\Debug\GisVN.pdb
