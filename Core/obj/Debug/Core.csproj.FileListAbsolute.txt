@@ -2,3 +2,7 @@ H:\Work\GisVN\Core\bin\Debug\Core.dll
 H:\Work\GisVN\Core\bin\Debug\Core.pdb
 H:\Work\GisVN\Core\obj\Debug\Core.dll
 H:\Work\GisVN\Core\obj\Debug\Core.pdb
+D:\Git\gisvn\Core\bin\Debug\Core.dll
+D:\Git\gisvn\Core\bin\Debug\Core.pdb
+D:\Git\gisvn\Core\obj\Debug\Core.dll
+D:\Git\gisvn\Core\obj\Debug\Core.pdb

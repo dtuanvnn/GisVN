@@ -9,3 +9,9 @@ D:\Work\Source\Repos\GisVN\Data\bin\Debug\Data.pdb
 D:\Work\Source\Repos\GisVN\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 D:\Work\Source\Repos\GisVN\Data\obj\Debug\Data.dll
 D:\Work\Source\Repos\GisVN\Data\obj\Debug\Data.pdb
+D:\Git\gisvn\Data\bin\Debug\Data.dll.config
+D:\Git\gisvn\Data\bin\Debug\Data.dll
+D:\Git\gisvn\Data\bin\Debug\Data.pdb
+D:\Git\gisvn\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Git\gisvn\Data\obj\Debug\Data.dll
+D:\Git\gisvn\Data\obj\Debug\Data.pdb

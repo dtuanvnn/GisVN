@@ -3,6 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="232*" />
+        </Grid.RowDefinitions>
+        <Menu Height="30" VerticalAlignment="Top" Grid.Row="0">
+            <MenuItem x:Name="Input" Header="Nhập data" Margin="5" Click="Input_Click"/>
+            <MenuItem x:Name="Search" Header="Tìm kiếm" Margin="5" Click="Search_Click"/>
+            <MenuItem x:Name="Report" Header="Xuất báo cáo" Margin="5"/>
+            <MenuItem Header="Giới thiệu" Margin="5"/>
+        </Menu>
+        <!--<StatusBar Height="25" VerticalAlignment="Bottom"/>-->
+        <TabControl x:Name="MainTab" Margin="5,0,5,5" Grid.Row="1"/>
     </Grid>
 </Window>

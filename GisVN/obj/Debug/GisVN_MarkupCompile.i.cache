@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-H:\Work\GisVN\GisVN\obj\Debug\
+D:\Git\gisvn\GisVN\obj\Debug\
 GisVN
 none
 false
 DEBUG;TRACE
-H:\Work\GisVN\GisVN\App.xaml
-11151548125
+D:\Git\gisvn\GisVN\App.xaml
+2419903590
 
-9-2116672242
+101198067303
 12-1401562060
-MainWindow.xaml;
+Themes\Generic.xaml;MainWindow.xaml;
 
-False
+True
 
