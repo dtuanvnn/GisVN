@@ -11,3 +11,9 @@ H:\Work\GisVN\GisVN\obj\Debug\GisVN.Properties.Resources.resources
 H:\Work\GisVN\GisVN\obj\Debug\GisVN.csproj.GenerateResource.Cache
 H:\Work\GisVN\GisVN\obj\Debug\GisVN.exe
 H:\Work\GisVN\GisVN\obj\Debug\GisVN.pdb
+H:\Work\GisVN\GisVN\bin\Debug\FabTab.dll
+H:\Work\GisVN\GisVN\bin\Debug\FabTab.pdb
+H:\Work\GisVN\GisVN\obj\Debug\SampleView.baml
+H:\Work\GisVN\GisVN\obj\Debug\SampleView.g.cs
+H:\Work\GisVN\GisVN\obj\Debug\SearchGiay.baml
+H:\Work\GisVN\GisVN\obj\Debug\SearchGiay.g.cs
