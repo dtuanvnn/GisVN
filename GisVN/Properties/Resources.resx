@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,72 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DiaChiNha" xml:space="preserve">
+    <value>Địa chỉ nhà/căn hộ</value>
+  </data>
+  <data name="DiaChiThua" xml:space="preserve">
+    <value>Địa chỉ thửa</value>
+  </data>
+  <data name="LoaiGiay" xml:space="preserve">
+    <value>Loại giấy</value>
+  </data>
+  <data name="NamSinh" xml:space="preserve">
+    <value>Năm sinh</value>
+  </data>
+  <data name="NgayVaoSo" xml:space="preserve">
+    <value>Ngày vào sổ</value>
+  </data>
+  <data name="SearchCondition" xml:space="preserve">
+    <value>Điều kiện tìm kiếm</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>Kết quả tìm kiếm</value>
+  </data>
+  <data name="SoCMND" xml:space="preserve">
+    <value>Số CMND/Hộ chiếu</value>
+  </data>
+  <data name="SoHieu" xml:space="preserve">
+    <value>Số hiệu</value>
+  </data>
+  <data name="SoHoSoCu" xml:space="preserve">
+    <value>Số hs gốc cũ</value>
+  </data>
+  <data name="SoHoSoGoc" xml:space="preserve">
+    <value>Số hồ sơ gốc</value>
+  </data>
+  <data name="SoNha" xml:space="preserve">
+    <value>Số nhà/căn hộ</value>
+  </data>
+  <data name="SoNhaCu" xml:space="preserve">
+    <value>Số nhà/căn hộ cũ</value>
+  </data>
+  <data name="SoToBanDo" xml:space="preserve">
+    <value>Số tờ bản đồ</value>
+  </data>
+  <data name="SoToBanDoCu" xml:space="preserve">
+    <value>Số tờ bản đồ cũ</value>
+  </data>
+  <data name="SoVaoSo" xml:space="preserve">
+    <value>Số vào sổ</value>
+  </data>
+  <data name="STTThua" xml:space="preserve">
+    <value>Số thứ tự thửa</value>
+  </data>
+  <data name="STTTHuaCu" xml:space="preserve">
+    <value>Số thứ tự thửa cũ</value>
+  </data>
+  <data name="TenChu" xml:space="preserve">
+    <value>Tên chủ</value>
+  </data>
+  <data name="ThongTinTrenGiay" xml:space="preserve">
+    <value>Thông tin trên giấy chứng nhận</value>
+  </data>
+  <data name="TinhTrangGiay" xml:space="preserve">
+    <value>Tình trạng giấy</value>
+  </data>
 </root>
