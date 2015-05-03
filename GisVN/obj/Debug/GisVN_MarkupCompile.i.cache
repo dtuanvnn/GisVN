@@ -9,11 +9,19 @@ GisVN
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 F:\Work\GisVN\GisVN\App.xaml
 3-1686868020
 
 11-986064199
 13-455786342
+=======
+H:\Work\GisVN\GisVN\App.xaml
+3-1686868020
+
+11199936347
+13-616717435
+>>>>>>> 2348434b9d1364e80dc4cceebe2330ba8db7c7ef
 MainWindow.xaml;SampleView.xaml;SearchGiay.xaml;
 
 False

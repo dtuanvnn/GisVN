@@ -60,12 +60,16 @@
     </Compile>
     <Compile Include="Models\LoaiGiayChungNhanModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Services\IPresentationService.cs" />
     <Compile Include="Services\ISearchService.cs" />
     <Compile Include="Services\SearchGiayService.cs" />
     <Compile Include="ViewModels\SearchGiayViewModel.cs" />
     <Compile Include="Views\ISearchGiayView.cs" />
     <Compile Include="Views\IView.cs" />
+=======
+    <Compile Include="Services\ISearchService.cs" />
+>>>>>>> 2348434b9d1364e80dc4cceebe2330ba8db7c7ef
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="GisModel.edmx">
@@ -80,6 +84,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +92,13 @@
       <Project>{1f172150-a0a3-45e8-8158-b1fa705674c5}</Project>
       <Name>Core</Name>
     </ProjectReference>
+=======
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Views\" />
+>>>>>>> 2348434b9d1364e80dc4cceebe2330ba8db7c7ef
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

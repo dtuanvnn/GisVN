@@ -17,6 +17,9 @@ H:\Work\GisVN\GisVN\obj\Debug\SampleView.g.cs
 H:\Work\GisVN\GisVN\obj\Debug\SearchGiay.baml
 H:\Work\GisVN\GisVN\obj\Debug\SearchGiay.g.cs
 H:\Work\GisVN\GisVN\obj\Debug\GisVN_MarkupCompile.lref
+<<<<<<< HEAD
 F:\Work\GisVN\GisVN\bin\Debug\GisVN.exe.config
 F:\Work\GisVN\GisVN\obj\Debug\GisVN.exe
 F:\Work\GisVN\GisVN\obj\Debug\GisVN.pdb
+=======
+>>>>>>> 2348434b9d1364e80dc4cceebe2330ba8db7c7ef
